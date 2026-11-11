@@ -1,0 +1,14 @@
+# Smithery: https://smithery.ai/docs/build/project-config
+startCommand:
+  type: stdio
+  configSchema:
+    type: object
+    required: [parlovaToken]
+    properties:
+      parlovaToken:
+        type: string
+        description: Access token from Parlova → Settings → Developers (Plus or Pro plan).
+  commandFunction: |-
+    (config) => ({ command: "uvx", args: ["parlova", "mcp"], env: { PARLOVA_TOKEN: config.parlovaToken } })
+  exampleConfig:
+    parlovaToken: your-parlova-access-token

@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "parlova"
-version = "1.0.0"
+version = "1.0.1"
 description = "Transcribe audio, video and YouTube from your terminal or from Claude, Cursor and VS Code (MCP server)."
 readme = "README.md"
 requires-python = ">=3.8"

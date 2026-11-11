@@ -1,5 +1,7 @@
 # Parlova MCP: transcribe audio, video and YouTube from Claude, Cursor and VS Code
 
+<!-- mcp-name: io.github.fort652/parlova-mcp -->
+
 Parlova lets your AI assistant turn local recordings and YouTube videos into accurate, timestamped transcripts, with
 speakers labelled, so you can summarise, search and quote them without leaving the chat.
 

@@ -1,0 +1,33 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.fort652/parlova-mcp",
+  "title": "Parlova",
+  "description": "Transcribe local audio/video and YouTube into timestamped, speaker-labelled text. 90+ languages.",
+  "websiteUrl": "https://parlova.co.za",
+  "repository": {
+    "url": "https://github.com/fort652/parlova-mcp",
+    "source": "github"
+  },
+  "version": "1.0.1",
+  "packages": [
+    {
+      "registryType": "pypi",
+      "identifier": "parlova",
+      "version": "1.0.1",
+      "runtimeHint": "uvx",
+      "packageArguments": [
+        { "type": "positional", "value": "mcp" }
+      ],
+      "transport": { "type": "stdio" },
+      "environmentVariables": [
+        {
+          "name": "PARLOVA_TOKEN",
+          "description": "Access token from Parlova > Settings > Developers (Plus or Pro plan). Optional if you ran `parlova login`.",
+          "isRequired": false,
+          "isSecret": true,
+          "format": "string"
+        }
+      ]
+    }
+  ]
+}

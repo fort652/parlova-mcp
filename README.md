@@ -5,8 +5,8 @@
 Parlova lets your AI assistant turn local recordings and YouTube videos into accurate, timestamped transcripts, with
 speakers labelled, so you can summarise, search and quote them without leaving the chat.
 
-It runs as a local MCP server (`parlova mcp`) that talks to the [Parlova](https://parlova.co.za) transcription API, powered
-by ElevenLabs Scribe v2: 90+ languages with automatic detection, including Afrikaans and isiZulu, even when languages are
+It runs as a local MCP server (`parlova mcp`) that talks to the [Parlova](https://parlova.co.za) transcription API, with
+90+ languages and automatic detection, including Afrikaans and isiZulu, even when languages are
 mixed in one recording. It's also a handy command-line tool.
 
 ## Prerequisites
